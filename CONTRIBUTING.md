@@ -2,8 +2,8 @@
 
 There are many ways to be an open source contributor, and we're here to help you on your way! You may:
 
-* Propose ideas in our [discussion forums](LINK_HERE)  ___***FIX LINK AND REMOVE THIS NOTICE***___
-* Raise an issue or feature request in our [issue tracker](LINK_HERE)  ___***FIX LINK AND REMOVE THIS NOTICE***___
+* Propose ideas in our [discussion forums](https://github.com/TBD54566975/developer-site-docusaurus/discussions)
+* Raise an issue or feature request in our [issue tracker](https://github.com/TBD54566975/developer-site-docusaurus/issues)
 * Help another contributor with one of their questions, or a code review
 * Suggest improvements to our Getting Started documentation by supplying a Pull Request
 * Evangelize our work together in conferences, podcasts, and social media spaces.
@@ -12,162 +12,88 @@ This guide is for you.
 
 ## Development Prerequisites
 
-___***UPDATE TABLE OF PROJECT DEPS AND INSTALLATION NOTES***___
+| Requirement |
+|-------------|
+| [Node.js](https://nodejs.org/en/) |
+| [Yarn](https://classic.yarnpkg.com/en/) |
 
-| Requirement | Tested Version | Installation Instructions                            |
-|-------------|----------------|------------------------------------------------------|
-| Go          | 1.17.6         |[go.dev](https://go.dev/doc/tutorial/compile-install) |
-| Mage        | 1.12.1         |[magefile.org](https://magefile.org/)                 |
-| Java        | 17.0.2         | Below, recommended via [SDKMan](https://sdkman.io)   |
+### Node
 
-### Go
+This project is built and locally served by `Node.js`, a JavaScript runtime.
 
-This project is written in Go, a modern, open source programming language. 
-
-You may verify your `go` installation via the terminal:
+You may verify your `node` installation via the terminal:
 
 ```
-$> go version
-go version go1.17.6 darwin/amd64
+$> node --version
+v14.18.2
 ```
 
-If you do not have go, we recommend installing it by:
+If you do not have Node, we recommend installing it via `nvm`, the [Node Version Manager](https://github.com/nvm-sh/nvm):
 
-#### MacOS
+#### Cross-Platform
 
-##### Homebrew
-```
-$> brew install go
-```
-
-### Mage
-
-The build is run by Mage.
-
-You may verify your `mage` installation via the terminal:
-
-```
-$> mage --version
-Mage Build Tool 1.12.1
-Build Date: 2021-12-15T21:00:02Z
-Commit: 2f1ec40
-built with: go1.17.6
-```
-
-#### MacOS
-
-##### Homebrew
-
-```
-$> brew install mage
-```
-
-### Java
-
-This project is written in Java, a typesafe, compiled programming language. 
-
-You may verify your `java` installation via the terminal by running `java -version`.
-
-If you do not have Java, we recommend installing it 
-via [SDKMan](https://sdkman.io/install). This is a project which will allow you 
-to easily install the Java Development Kit (JDK), runtime (JRE), and related frameworks, 
-build tools, and runtimes.
-
-After you've installed SDKMan, you may install Java:
-
-#### SDKMan (cross-platform instructions)
+[Instructions for installation](https://github.com/nvm-sh/nvm#installing-and-updating) 
+of `nvm` are:
 
 ```shell
-$> sdk install java 
- ...
-Do you want java 17.0.2-open to be set as default? (Y/n): Y
-Setting java 17.0.2-open as default.
+$> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-You may test your installation:
+or:
 
 ```shell
-$> java -version
-openjdk version "17.0.2" 2022-01-18
-OpenJDK Runtime Environment (build 17.0.2+8-86)
-OpenJDK 64-Bit Server VM (build 17.0.2+8-86, mixed mode, sharing)
+$> wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
----
-**NOTE**
+### Yarn
 
-You may additionally look for other Java versions to install by running `sdk list java`:
-
-...or other installation candidates like Apache Ant, Apache Maven, etc, by running `sdk list`.
-
-Consult the SDKMan documentation for more info.
-
----
-
-## Build (Mage)
-
-```
-$> mage build
-```
-
-## Build (Java / Gradle)
-
-### macOS / Linux
-```shell
-$> ./gradlew build
-```
-
-### Windows
-```shell
-$> gradlew.bat build
-```
-
-## Test (Mage)
-
-```
-$> mage test
-```
-
-## Test (Java / Gradle)
-
-### macOS / Linux
-```shell
-$> ./gradlew test
-```
-
-### Windows
-```shell
-$> gradlew.bat test
-```
-
----
-**NOTE**
-
-You may also combine Gradle build targets in one call, like:
+Builds are run using the [Yarn](https://classic.yarnpkg.com/en/) dependency management 
+system. [Installation](https://classic.yarnpkg.com/en/docs/install#mac-stable) can be done 
+via `npm`, which comes with Node, installed above:
 
 ```shell
-$> ./gradlew clean build test
+$> npm install --global yarn
 ```
 
----
+### Installation
 
-## Communications
+```shell
+$ yarn
+```
 
-### Issues
+### Local Development
 
-Anyone from the community is welcome (and encouraged!) to raise issues via [GitHub Issues](LINK_HERE)  ___***FIX LINK AND REMOVE THIS NOTICE***___.
+```shell
+$ yarn start
+```
 
-### Discussions
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-Design discussions and proposals take place on [GitHub Discussions](LINK_HERE)  ___***FIX LINK AND REMOVE THIS NOTICE***___. 
+The site will typically be available at [`http://localhost:3000/`](http://localhost:3000/).
 
-We advocate an asynchronous, written debate model - so write up your thoughts and invite the community to join in!
+### Build
 
-### Continuous Integration
+```shell
+$> yarn build
+```
 
-Build and Test cycles are run on every commit to every branch on [CircleCI](LINK_HERE).
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
- ___***FIX LINK ABOVE AND REMOVE THIS NOTICE***___
+### Deployment
+
+Using SSH:
+
+```shell
+$> USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```shell
+$> GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 ## Contribution
 
