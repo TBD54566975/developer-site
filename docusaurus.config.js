@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'TBD Developer',
+  tagline: 'The future of decentralized finance is TBD',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'TBD54566975', // Usually your GitHub org/user name.
+  projectName: 'developer-site-docusaurus', // Usually your repo name.
 
   presets: [
     [
@@ -43,12 +43,27 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'TBD Developer',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'TBD Logo',
           src: 'img/logo.svg',
         },
         items: [
+          {
+            to: '/projects',
+            position: 'left',
+            label: 'Projects',
+          },
+          {
+            to: '/careers',
+            position: 'left',
+            label: 'Careers',
+          },
+          {
+            to: '/media',
+            position: 'left',
+            label: 'Media',
+          },
           {
             type: 'doc',
             docId: 'intro',
