@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'TBD Developer',
   tagline: 'The future of decentralized finance is TBD',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://tbd54566975.github.io/',
+  baseUrl: '/developer-site-docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'TBD54566975', // Usually your GitHub org/user name.
   projectName: 'developer-site-docusaurus', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
