@@ -56,6 +56,10 @@ button[type="button"] svg {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.container {
+  padding: 0 2rem;
+}
+
 main {
   padding-bottom: 2em !important;
 }
