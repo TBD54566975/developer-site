@@ -26,5 +26,3 @@ A series hosted by [Angie Jones](https://twitter.com/techgirl1908), where the co
 | [Decentralized Identity](twitter_spaces/030224_decentralized_ids_panel.mp3)     | A panel discussion on Decentralized Identity (DID) where we talk use cases, benefits, DIDs vs NFTs, and what should and shouldn't go on a blockchain | [Daniel Buchner](https://twitter.com/csuwildcat), [Kim Hamilton Duffy](https://twitter.com/kimdhamilton), [Brooklyn Zelenka](https://twitter.com/expede) |
 | [Blockchain Skepticism](twitter_spaces/021822_blockchain_skepticism_kelseyhightower.mp3)     | An open discussion between builders, spectators, and critics | [Kelsey Hightower](https://twitter.com/kelseyhightower) |
 | [Blockchain, Crypto, and TBD...oh my!](twitter_spaces/020422_blockchain_crypto_tbd_mikebrock.mp3)     | An open discussion about blockchain, bitcoin, web3, and decentralization with TBD's General Manager. | [Mike Brock](https://twitter.com/brockm) |
-
-https://github.com/TBD54566975/developer-site/blob/main/static/twitter_spaces/020422_blockchain_crypto_tbd_mikebrock.mp3
