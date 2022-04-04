@@ -5,6 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Individual Empowerment',
+    src: 'img/icons/empowerment.png',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -15,6 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Digital Self-Ownership',
+    src: 'img/icons/networking.png',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -25,6 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Financial Inclusion',
+    src: 'img/icons/money-exchange.png',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -35,12 +38,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, src, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
         {/* <Svg className={styles.featureSvg} role="img" /> */}
-        <img src="img/icons/empowerment.png" />
+        <img src={src} />
       </div>
       <div className="text--center padding-horiz--sm">
         <h4>{title}</h4>

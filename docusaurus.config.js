@@ -115,15 +115,23 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Credits',
             items: [
               // {
               //   label: 'Blog',
               //   to: '/blog',
               // },
               {
-                label: 'GitHub',
-                href: 'https://github.com/TBD54566975',
+                label: 'Jane Kelly from Flaticon',
+                href: 'https://www.flaticon.com/authors/jane-kelly',
+              },
+              {
+                label: 'Maxim Basinski from Flaticon',
+                href: 'https://www.flaticon.com/authors/maxim-basinski-premium',
+              },
+              {
+                label: 'Darius Dan from Flaticon',
+                href: 'https://www.flaticon.com/authors/darius-dan',
               },
             ],
           },

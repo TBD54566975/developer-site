@@ -54,7 +54,39 @@ export default function Home() {
           </div>
         </section>
 
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
+
+        <section id="home_features" className={styles.features}>
+          <div className="container">
+            <h2>Our Principles</h2>
+
+            <ul>
+              <li>
+                <div><img src="img/icons/empowerment.png" /></div>
+                <h4>Individual Empowerment</h4>
+                <p>
+                  Our open source efforts exist to empower individuals through collaborative innovation.
+                </p>
+              </li>
+              <li>
+                <div><img src="img/icons/networking.png" /></div>
+                <h4>Digital Self-Ownership</h4>
+                <p>
+                  Individuals should control their digital lives, and every line of code we write should reflect that.                  
+                </p>
+              </li>
+              <li>
+                <div><img src="img/icons/money-exchange.png" /></div>
+                <h4>Financial Inclusion</h4>
+                <p>
+                  The financial system of the future should be decentralized, permissionless, and non-custodial.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        
       </main>
     </Layout>
   );
