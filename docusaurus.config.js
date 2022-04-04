@@ -10,12 +10,12 @@ const config = {
   titleDelimiter: '-',
   tagline: 'Open Source ⁃ Decentralization ⁃ Community',
   url: 'https://tbd54566975.github.io/',
-  baseUrl: '/developer-site-docusaurus/',
+  baseUrl: '/developer-site/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logos/tbd_logo.svg',
   organizationName: 'TBD54566975', // Usually your GitHub org/user name.
-  projectName: 'developer-site-docusaurus', // Usually your repo name.
+  projectName: 'developer-site', // Usually your repo name.
   trailingSlash: false,
 
   presets: [
