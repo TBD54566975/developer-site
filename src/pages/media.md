@@ -2,10 +2,6 @@
 title: TBD Media
 ---
 
-# TBD Media Resources
-
-Want to double-click on TBD's mission and approach? See us out in the open.
-
 ## Twitter Spaces: The Blockchain Discussion
 
 A series hosted by [Angie Jones](https://twitter.com/techgirl1908), where the community has open discussions about blockchain technologies and the apps built on top of them.

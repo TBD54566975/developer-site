@@ -6,13 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TBD Developer',
-  tagline: 'The future of decentralized finance is TBD',
+  title: 'TBD | Developers',
+  titleDelimiter: '-',
+  tagline: 'Open Source ⁃ Decentralization ⁃ Community',
   url: 'https://tbd54566975.github.io/',
   baseUrl: '/developer-site-docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logos/tbd_logo.svg',
   organizationName: 'TBD54566975', // Usually your GitHub org/user name.
   projectName: 'developer-site-docusaurus', // Usually your repo name.
   trailingSlash: false,
@@ -43,11 +44,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
-        title: 'TBD Developer',
+        title: 'TBD | Developers',
         logo: {
           alt: 'TBD Logo',
-          src: 'img/logo.svg',
+          src: 'img/logos/tbd_logo.svg',
         },
         items: [
           {
@@ -65,13 +71,13 @@ const config = {
             position: 'left',
             label: 'Media',
           },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -94,35 +100,35 @@ const config = {
           {
             title: 'Community',
             items: [
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://github.com/TBD54566975',
+                label: 'GitHub',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/TBD54566975',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/TBD54566975',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Block, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
