@@ -14,6 +14,7 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-color-emphasis-600: #000;
+    --ifm-font-family-base: 'Montserrat';
   --ifm-code-font-size: 95%;
   --ifm-navbar-link-color: #000;
   --ifm-navbar-link-hover-color: #000;
