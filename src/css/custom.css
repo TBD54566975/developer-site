@@ -121,6 +121,14 @@ main {
   margin-top: 0;
 }
 
+@media screen and (min-width: 320px) and (max-width: 786px) {
+    .hero__title {
+      font-size: 1.28rem;
+      overflow-wrap: normal;
+    }
+}
+
+
 /* HOME WELCOME */
 
 /* #home_welcome .container {
