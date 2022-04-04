@@ -153,6 +153,6 @@ main {
 
 /* PROJECT PAGE */
 
-#project_table + table tbody td:first-child {
+[table-styles~="nowrap-first-col"] + table tbody td:first-child {
   white-space: nowrap;
 }
