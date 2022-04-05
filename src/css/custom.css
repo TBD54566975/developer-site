@@ -205,3 +205,9 @@ main {
     overflow-wrap: normal;
   }
 }
+
+@media (max-width: 996px) {
+  .footer .footer__col {
+    flex-basis: 0 !important;
+  }
+}

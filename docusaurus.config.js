@@ -115,27 +115,27 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Credits',
-            items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
-              {
-                label: 'Jane Kelly from Flaticon',
-                href: 'https://www.flaticon.com/authors/jane-kelly',
-              },
-              {
-                label: 'Maxim Basinski from Flaticon',
-                href: 'https://www.flaticon.com/authors/maxim-basinski-premium',
-              },
-              {
-                label: 'Darius Dan from Flaticon',
-                href: 'https://www.flaticon.com/authors/darius-dan',
-              },
-            ],
-          },
+          // {
+          //   title: 'Credits',
+          //   items: [
+          //     // {
+          //     //   label: 'Blog',
+          //     //   to: '/blog',
+          //     // },
+          //     {
+          //       label: 'Jane Kelly from Flaticon',
+          //       href: 'https://www.flaticon.com/authors/jane-kelly',
+          //     },
+          //     {
+          //       label: 'Maxim Basinski from Flaticon',
+          //       href: 'https://www.flaticon.com/authors/maxim-basinski-premium',
+          //     },
+          //     {
+          //       label: 'Darius Dan from Flaticon',
+          //       href: 'https://www.flaticon.com/authors/darius-dan',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Block, Inc.`,
       },
