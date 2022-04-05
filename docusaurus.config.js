@@ -9,7 +9,7 @@ const config = {
   title: 'TBD | Developers',
   titleDelimiter: '-',
   tagline: 'Open Source ⁃ Decentralization ⁃ Community',
-  url: 'https://tbd54566975.github.io/',
+  url: 'https://tbd54566975.github.io',
   baseUrl: '/developer-site/',
   staticDirectories: ['static'],
   onBrokenLinks: 'throw',
@@ -42,16 +42,18 @@ const config = {
         respectPrefersColorScheme: true,
       },
       metadata: [
-        {
-          description: 'Open Source ⁃ Decentralization ⁃ Community',
-          image: '/img/logos/tbd_logo.png',
-          name: 'TBD | Developers',
-          title: 'TBD | Developers',
-          'twitter:card': 'summary',
-          'twitter:image': '/img/logos/tbd_logo.png',
-          'twitter:site': '@tbd54566975',
-          'msapplication-TileImage': '/img/logos/tbd_logo.png',
-        }
+        { 'description': 'Open Source - Decentralization - Community' },
+        { 'image': '/img/logos/tbd_logo.png' },
+        { 'msapplication-TileImage': '/img/logos/tbd_logo.png' },
+        { 'name': 'TBD | Developers' },
+        { 'title': 'TBD | Developers' },
+        { 'twitter:card': 'summary' },
+        { 'twitter:image': '/img/logos/tbd_logo.png' },
+        { 'twitter:site': '@tbd54566975' },
+
+
+
+
       ],
       navbar: {
         title: 'TBD | Developers',
