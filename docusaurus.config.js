@@ -84,37 +84,42 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            label: 'Twitter',
+            href: 'https://twitter.com/TBD54566975',
+            position: 'right',
+          },
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              {
-                href: 'https://github.com/TBD54566975',
-                label: 'GitHub',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/TBD54566975',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     // {
+          //     //   label: 'Discord',
+          //     //   href: 'https://discordapp.com/invite/docusaurus',
+          //     // },
+          //     {
+          //       href: 'https://github.com/TBD54566975',
+          //       label: 'GitHub',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/TBD54566975',
+          //     },
+          //   ],
+          // },
           // {
           //   title: 'Credits',
           //   items: [
