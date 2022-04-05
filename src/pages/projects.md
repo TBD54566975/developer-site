@@ -17,7 +17,7 @@ system we're building.
 
 | Resource   | Description |
 | :--------- | :---------- |
-| [tbDEX Whitepaper](https://github.com/TBD54566975/tbdex-whitepaper)  | The whitepaper that describes the tbDEX liquidity and value exchange protocol.
+| [tbDEX Whitepaper](https://github.com/TBD54566975/tbdex-whitepaper/blob/main/whitepaper.pdf)  | The whitepaper that describes the tbDEX liquidity and value exchange protocol.
 
 ## Components
 
