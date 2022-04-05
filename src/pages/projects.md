@@ -23,8 +23,8 @@ Our [Collaboration repository](https://github.com/TBD54566975/collaboration) is 
 
 | Project | Language   | Description |
 | :-------- | :---------- | :------------ |
-| [`ssi-sdk`](https://github.com/TBD54566975/ssi-sdk)          | Go         | Standards-based primitives for using Decentralized Identifiers and Verifiable Credentials.
-| [`ssi-service`](https://github.com/TBD54566975/ssi-service)  | Go         | An in-a-box service that handles the full Verifiable Credentials lifecycle, including issuance, verification, revocation, and more.
-| [`dwn-sdk-js`](https://github.com/TBD54566975/dwn-sdk-js)    | TypeScript | An implementation of DIF's emerging decentralized personal datastore standard.
-
+| [`ssi-sdk`](https://github.com/TBD54566975/ssi-sdk)                  | Go         | Standards-based primitives for using Decentralized Identifiers and Verifiable Credentials.
+| [`ssi-service`](https://github.com/TBD54566975/ssi-service)          | Go         | An in-a-box service that handles the full Verifiable Credentials lifecycle, including issuance, verification, revocation, and more.
+| [`dwn-sdk-js`](https://github.com/TBD54566975/dwn-sdk-js)            | TypeScript | An implementation of DIF's emerging decentralized personal datastore standard.
+| [`tbdex-protocol`](https://github.com/TBD54566975/tbdex-protocol)    | Java       | A playground as we iterate our way to a robust protocol. Mostly composed of tbDEX message schemas/formats and a mock PFI implemementaion.
 
