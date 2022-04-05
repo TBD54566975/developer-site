@@ -4,7 +4,7 @@ title: Careers
 
 # Careers at TBD
 
-Come work with a bunch of passionate people who wake up every morning to help better people's lives with decentralized technologies.
+Come work with a bunch of passionate people who wake up every day to help better people's lives with decentralized technologies.
 
 | Role                                                                                        | Description                                                                                   |
 | :--------------------------------------------------------------------------------------------| :----------------------------------------------------------------------------------------------|
