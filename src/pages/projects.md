@@ -4,9 +4,7 @@ title: Projects
 
 # Come collaborate with us!
 
-Our [Collaboration repository](https://github.com/TBD54566975/collaboration) is the home for 
-all of TBD's open source development efforts. It outlines the tbDEX and Decentralized Identity
-system we're building.
+Our [Collaboration repository](https://github.com/TBD54566975/collaboration) is the home for  all of TBD's open source development efforts. It outlines the tbDEX and Decentralized Identity system we're building.
 
 * [Discussions](https://github.com/TBD54566975/collaboration/discussions)
 * [Issues](https://github.com/TBD54566975/collaboration/issues)
