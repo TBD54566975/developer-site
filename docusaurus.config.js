@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const META_LOGO_URL = 'https://tbd54566975.github.io/developer-site/img/logos/tbd_logo.png';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -42,13 +43,11 @@ const config = {
         respectPrefersColorScheme: true,
       },
       metadata: [
-        { 'description': 'Open Source - Decentralization - Community' },
-        { 'image': '/img/logos/tbd_logo.png' },
-        { 'msapplication-TileImage': '/img/logos/tbd_logo.png' },
+        { 'image': META_LOGO_URL },
         { 'name': 'TBD | Developers' },
-        { 'title': 'TBD | Developers' },
+        { 'title': 'Open Source - Decentralization - Community' },
         { 'twitter:card': 'summary' },
-        { 'twitter:image': '/img/logos/tbd_logo.png' },
+        { 'twitter:image': META_LOGO_URL },
         { 'twitter:site': '@tbd54566975' },
 
 
