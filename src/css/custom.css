@@ -108,6 +108,20 @@ main {
   height: 3px;
 }
 
+/* hide default navbar icon for links for the github icon */
+.custom-icon {
+  padding-left: 0px;
+  padding-right: 16px;
+}
+
+.custom-icon>span {
+  display: none;
+}
+
+.custom-icon:hover::after {
+  height: 0px;
+}
+
 /* HERO */
 
 .hero {
@@ -153,7 +167,7 @@ main {
   margin: 0 1rem;
 }
 
-#home_features li > div {
+#home_features li>div {
   display: flex;
   align-items: center;
   justify-items: center;
@@ -189,7 +203,7 @@ main {
 
 /* PROJECT PAGE */
 
-[table-styles~="nowrap-first-col"] + table tbody td:first-child {
+[table-styles~="nowrap-first-col"]+table tbody td:first-child {
   white-space: nowrap;
 }
 
@@ -203,6 +217,10 @@ main {
   .hero__title {
     font-size: 2rem;
     overflow-wrap: normal;
+  }
+
+  .custom-icon {
+    padding-left: 16px;
   }
 }
 

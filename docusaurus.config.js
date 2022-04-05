@@ -18,23 +18,14 @@ const config = {
   organizationName: 'TBD54566975', // Usually your GitHub org/user name.
   projectName: 'developer-site', // Usually your repo name.
   trailingSlash: false,
-
+  scripts: [
+    'https://kit.fontawesome.com/e737e32cd7.js'
+  ],
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -50,6 +41,18 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },
+      metadata: [
+        {
+          description: 'Open Source ⁃ Decentralization ⁃ Community',
+          image: '/img/logos/tbd_logo.png',
+          name: 'TBD | Developers',
+          title: 'TBD | Developers',
+          'twitter:card': 'summary',
+          'twitter:image': '/img/logos/tbd_logo.png',
+          'twitter:site': '@tbd54566975',
+          'msapplication-TileImage': '/img/logos/tbd_logo.png',
+        }
+      ],
       navbar: {
         title: 'TBD | Developers',
         logo: {
@@ -72,76 +75,22 @@ const config = {
             position: 'left',
             label: 'Media',
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/tbd54566975',
+            label: ' ',
             position: 'right',
+            className: "fa-brands fa-github fa-xl custom-icon"
           },
           {
-            label: 'Twitter',
+            label: ' ',
             href: 'https://twitter.com/TBD54566975',
             position: 'right',
+            className: "fa-brands fa-twitter fa-xl custom-icon"
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     // {
-          //     //   label: 'Discord',
-          //     //   href: 'https://discordapp.com/invite/docusaurus',
-          //     // },
-          //     {
-          //       href: 'https://github.com/TBD54566975',
-          //       label: 'GitHub',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/TBD54566975',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'Credits',
-          //   items: [
-          //     // {
-          //     //   label: 'Blog',
-          //     //   to: '/blog',
-          //     // },
-          //     {
-          //       label: 'Jane Kelly from Flaticon',
-          //       href: 'https://www.flaticon.com/authors/jane-kelly',
-          //     },
-          //     {
-          //       label: 'Maxim Basinski from Flaticon',
-          //       href: 'https://www.flaticon.com/authors/maxim-basinski-premium',
-          //     },
-          //     {
-          //       label: 'Darius Dan from Flaticon',
-          //       href: 'https://www.flaticon.com/authors/darius-dan',
-          //     },
-          //   ],
-          // },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} Block, Inc.`,
       },
       prism: {
