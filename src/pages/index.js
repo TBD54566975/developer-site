@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -25,10 +25,9 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      description="Description will go into a meta tag in <head />">
+    <Layout>
       <HomepageHeader />
       <main id="home_main">
         <section>
@@ -37,15 +36,15 @@ export default function Home() {
               <h2>Welcome to the Community!</h2>
 
               <p>
-                TBD is a new business unit of Block (fka Square, Inc.) focused on building decentralized 
-                platforms, protocols, and tools that empower every individual to own their data and 
+                TBD is a new business unit of Block (fka Square, Inc.) focused on building decentralized
+                platforms, protocols, and tools that empower every individual to own their data and
                 participate in the global economy.
               </p>
 
               <p>
-                TBD is on a mission to lead by example, inspiring the world to invest in and 
-                collaborate on open source standards and permissionless technologies for the public good. 
-                We welcome you to join us by bringing your ideas, thoughts, or technical skills to bear on 
+                TBD is on a mission to lead by example, inspiring the world to invest in and
+                collaborate on open source standards and permissionless technologies for the public good.
+                We welcome you to join us by bringing your ideas, thoughts, or technical skills to bear on
                 these important challenges.
               </p>
 
@@ -69,7 +68,7 @@ export default function Home() {
                 <div><img src="img/icons/networking.png" /></div>
                 <h4>Digital Self-Ownership</h4>
                 <p>
-                  Individuals should control their digital lives, and every line of code we write should reflect that.                  
+                  Individuals should control their digital lives, and every line of code we write should reflect that.
                 </p>
               </li>
               <li>
@@ -83,7 +82,7 @@ export default function Home() {
           </div>
         </section>
 
-        
+
       </main>
     </Layout>
   );
