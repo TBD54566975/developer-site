@@ -9,8 +9,8 @@ const config = {
   title: 'TBD | Developers',
   titleDelimiter: '-',
   tagline: 'Open Source ⁃ Decentralization ⁃ Community',
-  url: 'https://tbd54566975.github.io',
-  baseUrl: '/developer-site/',
+  url: 'https://tbd.website',
+  baseUrl: '/',
   staticDirectories: ['static'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,16 +42,16 @@ const config = {
         respectPrefersColorScheme: true,
       },
       metadata: [
-        { 'image': 'https://tbd54566975.github.io/developer-site/img/social-share.png' },
+        { 'image': 'https://tbd.website/img/social-share.png' },
         { 'title': 'Open Source - Decentralization - Community' },
-        { 'twitter:domain': 'https://tbd54566975.github.io' },
-        { 'twitter:url': 'https://tbd54566975.github.io/developer-site/' },
-        { 'twitter:image': 'https://tbd54566975.github.io/developer-site/img/social-share.png' },
+        { 'twitter:domain': 'https://tbd.website' },
+        { 'twitter:url': 'https://tbd.website/' },
+        { 'twitter:image': 'https://tbd.website/img/social-share.png' },
         { 'twitter:site': '@tbd54566975' },
         { 'name': 'twitter:card', 'content': 'summary_large_image' },
         { 'name': 'twitter:title', 'content': 'TBD | Developers' },
         { 'name': 'twitter:description', 'content': 'Focused on building decentralized platforms, protocols, and tools that empower every individual to own their data and participate in the global economy.' },
-        { 'name': 'twitter:image', 'content': 'https://tbd54566975.github.io/developer-site/img/logos/tbd_logo.png' },
+        { 'name': 'twitter:image', 'content': 'https://tbd.website/img/logos/tbd_logo.png' },
 
 
 
