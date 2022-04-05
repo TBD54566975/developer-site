@@ -4,7 +4,6 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -33,7 +32,7 @@ export default function Home() {
       <HomepageHeader />
       <main id="home_main">
         <section>
-          <div class="container">
+          <div className="container">
             <div>
               <h2>Welcome to the Community!</h2>
 
@@ -53,8 +52,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* <HomepageFeatures /> */}
 
         <section id="home_features" className={styles.features}>
           <div className="container">

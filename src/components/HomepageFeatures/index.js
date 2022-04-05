@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Individual Empowerment',
-    src: 'img/icons/empowerment.png',
+    src: '/img/icons/empowerment.png',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Digital Self-Ownership',
-    src: 'img/icons/networking.png',
+    src: '/img/icons/networking.png',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Financial Inclusion',
-    src: 'img/icons/money-exchange.png',
+    src: '/img/icons/money-exchange.png',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

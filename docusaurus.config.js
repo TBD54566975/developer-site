@@ -11,6 +11,7 @@ const config = {
   tagline: 'Open Source ⁃ Decentralization ⁃ Community',
   url: 'https://tbd54566975.github.io/',
   baseUrl: '/developer-site/',
+  staticDirectories: ['static'],
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logos/tbd_logo.svg',
