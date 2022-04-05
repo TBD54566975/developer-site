@@ -3,7 +3,6 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const META_LOGO_URL = 'https://tbd54566975.github.io/developer-site/img/logos/tbd_logo.png';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -43,12 +42,16 @@ const config = {
         respectPrefersColorScheme: true,
       },
       metadata: [
-        { 'image': META_LOGO_URL },
-        { 'name': 'TBD | Developers' },
+        { 'image': 'https://tbd54566975.github.io/developer-site/img/social-share.png' },
         { 'title': 'Open Source - Decentralization - Community' },
-        { 'twitter:card': 'summary' },
-        { 'twitter:image': META_LOGO_URL },
+        { 'twitter:domain': 'https://tbd54566975.github.io' },
+        { 'twitter:url': 'https://tbd54566975.github.io/developer-site/' },
+        { 'twitter:image': 'https://tbd54566975.github.io/developer-site/img/social-share.png' },
         { 'twitter:site': '@tbd54566975' },
+        { 'name': 'twitter:card', 'content': 'summary_large_image' },
+        { 'name': 'twitter:title', 'content': 'TBD | Developers' },
+        { 'name': 'twitter:description', 'content': 'Focused on building decentralized platforms, protocols, and tools that empower every individual to own their data and participate in the global economy.' },
+        { 'name': 'twitter:image', 'content': 'https://tbd54566975.github.io/developer-site/img/logos/tbd_logo.png' },
 
 
 

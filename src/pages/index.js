@@ -28,7 +28,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      description="TBD is a new business unit of Block (fka Square, Inc.) focused on building decentralized platforms, protocols, and tools that empower every individual to own their data and participate in the global economy.">
+      description="Focused on building decentralized platforms, protocols, and tools that empower every individual to own their data and participate in the global economy.">
       <HomepageHeader />
       <main id="home_main">
         <section>
