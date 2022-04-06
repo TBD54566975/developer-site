@@ -34,11 +34,11 @@ export default function Home() {
         <section>
           <div className="container">
             <div>
-              <h2>Welcome to the Community!</h2>
+              <h2>We are TBD.</h2>
 
               <p>
-                TBD is a new business unit of Block (fka Square, Inc.) focused on building decentralized
-                platforms, protocols, and tools that empower every individual to own their data and
+                TBD is a new business unit of Block (fka Square, Inc.). We build decentralized
+                platforms, protocols, and tools so everyone can own their data and
                 participate in the global economy.
               </p>
 
@@ -60,9 +60,9 @@ export default function Home() {
             <ul>
               <li>
                 <div><img src="img/icons/empowerment.png" /></div>
-                <h4>Individual Empowerment</h4>
+                <h4>Collaborative Innovation</h4>
                 <p>
-                  Our open source efforts exist to empower individuals through collaborative innovation.
+                  Our users are diverse and global; they deserve an ecosystem of contributors with varied perspectives to match.
                 </p>
               </li>
               <li>
