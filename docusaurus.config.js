@@ -70,14 +70,9 @@ const config = {
             label: 'Projects',
           },
           {
-            to: '/careers',
-            position: 'left',
-            label: 'Careers',
-          },
-          {
-            to: '/media',
-            position: 'left',
-            label: 'Media',
+            href: 'https://tbd.website',
+            label: 'TBD Home',
+            position: 'right'
           },
           {
             href: 'https://github.com/tbd54566975',
