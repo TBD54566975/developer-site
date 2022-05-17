@@ -70,6 +70,11 @@ const config = {
             label: 'Projects',
           },
           {
+            to: '/media',
+            position: 'left',
+            label: 'Media',
+          },
+          {
             href: 'https://tbd.website',
             label: 'TBD Home',
             position: 'right'
